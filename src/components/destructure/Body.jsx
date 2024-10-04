@@ -1,5 +1,5 @@
 
-import logo from '../../assets/graduates.png';
+import logo from '/graduates.png';
 import grad from '../../assets/graduate1.jpg';
 
 const Body = () => (
@@ -14,7 +14,7 @@ const Body = () => (
           <p>Software Developer</p>
         </div>
         <div className="graduates-card">
-        <img src={grad} alt="graduates" className="graduate-img" />
+        <img src={grad} alt="graduatess" className="graduate-img" />
           <h2>Jane Doe</h2>
           <p>Quality Assurance</p>
         </div>
